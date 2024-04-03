@@ -1,0 +1,9 @@
+html
+    head 
+        title Buscar Pelicula
+    body 
+        form(action='/film', method='POST', target='_blank')
+            label(for='fname') Nombre de Pelicula:
+            input#fname(type='text', name='fname')
+            input(type='submit', value='Buscar')
+        script(src='/js/script.js')
